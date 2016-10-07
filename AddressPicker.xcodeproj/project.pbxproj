@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6214113F1D82B8550058580A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6214113E1D82B8550058580A /* main.m */; };
+		621411421D82B8550058580A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621411411D82B8550058580A /* AppDelegate.m */; };
+		621411451D82B8550058580A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621411441D82B8550058580A /* ViewController.m */; };
+		621411481D82B8550058580A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621411461D82B8550058580A /* Main.storyboard */; };
+		6214114A1D82B8550058580A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621411491D82B8550058580A /* Assets.xcassets */; };
+		6214114D1D82B8550058580A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6214114B1D82B8550058580A /* LaunchScreen.storyboard */; };
+		621411581D82B8550058580A /* AddressPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621411571D82B8550058580A /* AddressPickerTests.m */; };
+		621411631D82B8550058580A /* AddressPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621411621D82B8550058580A /* AddressPickerUITests.m */; };
+		621411721D82B93C0058580A /* CDAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 621411711D82B93C0058580A /* CDAddressPickerView.m */; };
+		621411761D82BECE0058580A /* hotelcity.json in Resources */ = {isa = PBXBuildFile; fileRef = 621411741D82BECE0058580A /* hotelcity.json */; };
+		621411771D82BECE0058580A /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = 621411751D82BECE0058580A /* address.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		621411541D82B8550058580A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621411321D82B8540058580A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621411391D82B8550058580A;
+			remoteInfo = AddressPicker;
+		};
+		6214115F1D82B8550058580A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621411321D82B8540058580A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621411391D82B8550058580A;
+			remoteInfo = AddressPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6214113A1D82B8550058580A /* AddressPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6214113E1D82B8550058580A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		621411401D82B8550058580A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		621411411D82B8550058580A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		621411431D82B8550058580A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		621411441D82B8550058580A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		621411471D82B8550058580A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		621411491D82B8550058580A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6214114C1D82B8550058580A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6214114E1D82B8550058580A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621411531D82B8550058580A /* AddressPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		621411571D82B8550058580A /* AddressPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerTests.m; sourceTree = "<group>"; };
+		621411591D82B8550058580A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6214115E1D82B8550058580A /* AddressPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		621411621D82B8550058580A /* AddressPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerUITests.m; sourceTree = "<group>"; };
+		621411641D82B8550058580A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621411701D82B93C0058580A /* CDAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDAddressPickerView.h; path = ../AddressPicker/CDAddressPickerView.h; sourceTree = "<group>"; };
+		621411711D82B93C0058580A /* CDAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDAddressPickerView.m; path = ../AddressPicker/CDAddressPickerView.m; sourceTree = "<group>"; };
+		621411741D82BECE0058580A /* hotelcity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotelcity.json; sourceTree = "<group>"; };
+		621411751D82BECE0058580A /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
+		6247726D1D93BF9A005C3BA7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621411371D82B8550058580A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621411501D82B8550058580A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6214115B1D82B8550058580A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621411311D82B8540058580A = {
+			isa = PBXGroup;
+			children = (
+				621411731D82BAD40058580A /* AddressPickerView */,
+				6214113C1D82B8550058580A /* AddressPicker */,
+				621411561D82B8550058580A /* AddressPickerTests */,
+				621411611D82B8550058580A /* AddressPickerUITests */,
+				6214113B1D82B8550058580A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6214113B1D82B8550058580A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6214113A1D82B8550058580A /* AddressPicker.app */,
+				621411531D82B8550058580A /* AddressPickerTests.xctest */,
+				6214115E1D82B8550058580A /* AddressPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6214113C1D82B8550058580A /* AddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				621411401D82B8550058580A /* AppDelegate.h */,
+				621411411D82B8550058580A /* AppDelegate.m */,
+				621411431D82B8550058580A /* ViewController.h */,
+				621411441D82B8550058580A /* ViewController.m */,
+				6247726D1D93BF9A005C3BA7 /* PrefixHeader.pch */,
+				621411461D82B8550058580A /* Main.storyboard */,
+				621411491D82B8550058580A /* Assets.xcassets */,
+				6214114B1D82B8550058580A /* LaunchScreen.storyboard */,
+				6214114E1D82B8550058580A /* Info.plist */,
+				6214113D1D82B8550058580A /* Supporting Files */,
+			);
+			path = AddressPicker;
+			sourceTree = "<group>";
+		};
+		6214113D1D82B8550058580A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6214113E1D82B8550058580A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		621411561D82B8550058580A /* AddressPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				621411571D82B8550058580A /* AddressPickerTests.m */,
+				621411591D82B8550058580A /* Info.plist */,
+			);
+			path = AddressPickerTests;
+			sourceTree = "<group>";
+		};
+		621411611D82B8550058580A /* AddressPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				621411621D82B8550058580A /* AddressPickerUITests.m */,
+				621411641D82B8550058580A /* Info.plist */,
+			);
+			path = AddressPickerUITests;
+			sourceTree = "<group>";
+		};
+		621411731D82BAD40058580A /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				621411741D82BECE0058580A /* hotelcity.json */,
+				621411751D82BECE0058580A /* address.json */,
+				621411701D82B93C0058580A /* CDAddressPickerView.h */,
+				621411711D82B93C0058580A /* CDAddressPickerView.m */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621411391D82B8550058580A /* AddressPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621411671D82B8550058580A /* Build configuration list for PBXNativeTarget "AddressPicker" */;
+			buildPhases = (
+				621411361D82B8550058580A /* Sources */,
+				621411371D82B8550058580A /* Frameworks */,
+				621411381D82B8550058580A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressPicker;
+			productName = AddressPicker;
+			productReference = 6214113A1D82B8550058580A /* AddressPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		621411521D82B8550058580A /* AddressPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6214116A1D82B8550058580A /* Build configuration list for PBXNativeTarget "AddressPickerTests" */;
+			buildPhases = (
+				6214114F1D82B8550058580A /* Sources */,
+				621411501D82B8550058580A /* Frameworks */,
+				621411511D82B8550058580A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621411551D82B8550058580A /* PBXTargetDependency */,
+			);
+			name = AddressPickerTests;
+			productName = AddressPickerTests;
+			productReference = 621411531D82B8550058580A /* AddressPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6214115D1D82B8550058580A /* AddressPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6214116D1D82B8550058580A /* Build configuration list for PBXNativeTarget "AddressPickerUITests" */;
+			buildPhases = (
+				6214115A1D82B8550058580A /* Sources */,
+				6214115B1D82B8550058580A /* Frameworks */,
+				6214115C1D82B8550058580A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621411601D82B8550058580A /* PBXTargetDependency */,
+			);
+			name = AddressPickerUITests;
+			productName = AddressPickerUITests;
+			productReference = 6214115E1D82B8550058580A /* AddressPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		621411321D82B8540058580A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cd;
+				TargetAttributes = {
+					621411391D82B8550058580A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					621411521D82B8550058580A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 621411391D82B8550058580A;
+					};
+					6214115D1D82B8550058580A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 621411391D82B8550058580A;
+					};
+				};
+			};
+			buildConfigurationList = 621411351D82B8540058580A /* Build configuration list for PBXProject "AddressPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 621411311D82B8540058580A;
+			productRefGroup = 6214113B1D82B8550058580A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621411391D82B8550058580A /* AddressPicker */,
+				621411521D82B8550058580A /* AddressPickerTests */,
+				6214115D1D82B8550058580A /* AddressPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621411381D82B8550058580A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6214114D1D82B8550058580A /* LaunchScreen.storyboard in Resources */,
+				621411771D82BECE0058580A /* address.json in Resources */,
+				6214114A1D82B8550058580A /* Assets.xcassets in Resources */,
+				621411481D82B8550058580A /* Main.storyboard in Resources */,
+				621411761D82BECE0058580A /* hotelcity.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621411511D82B8550058580A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6214115C1D82B8550058580A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621411361D82B8550058580A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621411451D82B8550058580A /* ViewController.m in Sources */,
+				621411721D82B93C0058580A /* CDAddressPickerView.m in Sources */,
+				621411421D82B8550058580A /* AppDelegate.m in Sources */,
+				6214113F1D82B8550058580A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6214114F1D82B8550058580A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621411581D82B8550058580A /* AddressPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6214115A1D82B8550058580A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621411631D82B8550058580A /* AddressPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		621411551D82B8550058580A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621411391D82B8550058580A /* AddressPicker */;
+			targetProxy = 621411541D82B8550058580A /* PBXContainerItemProxy */;
+		};
+		621411601D82B8550058580A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621411391D82B8550058580A /* AddressPicker */;
+			targetProxy = 6214115F1D82B8550058580A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		621411461D82B8550058580A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				621411471D82B8550058580A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6214114B1D82B8550058580A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6214114C1D82B8550058580A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		621411651D82B8550058580A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621411661D82B8550058580A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621411681D82B8550058580A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.AddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		621411691D82B8550058580A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddressPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.AddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6214116B1D82B8550058580A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.AddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressPicker.app/AddressPicker";
+			};
+			name = Debug;
+		};
+		6214116C1D82B8550058580A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.AddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressPicker.app/AddressPicker";
+			};
+			name = Release;
+		};
+		6214116E1D82B8550058580A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.AddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6214116F1D82B8550058580A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.glx.AddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddressPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621411351D82B8540058580A /* Build configuration list for PBXProject "AddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621411651D82B8550058580A /* Debug */,
+				621411661D82B8550058580A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621411671D82B8550058580A /* Build configuration list for PBXNativeTarget "AddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621411681D82B8550058580A /* Debug */,
+				621411691D82B8550058580A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6214116A1D82B8550058580A /* Build configuration list for PBXNativeTarget "AddressPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6214116B1D82B8550058580A /* Debug */,
+				6214116C1D82B8550058580A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6214116D1D82B8550058580A /* Build configuration list for PBXNativeTarget "AddressPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6214116E1D82B8550058580A /* Debug */,
+				6214116F1D82B8550058580A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 621411321D82B8540058580A /* Project object */;
+}
