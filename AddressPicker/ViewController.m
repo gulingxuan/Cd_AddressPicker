@@ -52,6 +52,15 @@
     self.addressPV = [[CDAddressPickerView alloc]initWithFrame:CGRectMake(0, [[UIScreen mainScreen]bounds].size.height-240, [[UIScreen mainScreen]bounds].size.width, 240)];
     self.addressPV.btnFont = [UIFont systemFontOfSize:10];
 //    self.addressPV.pickerFont = [UIFont fontWithName:@"Courier" size:8];
+    
+    //在label里面显示选择的地址
+    __weak typeof(self) weakSelf = self;
+    self.addressPV.selectAddressBlock = ^(NSString *str)
+    
+    {
+        weakSelf.addressLabel.text = str;
+    };
+    
     [self.view addSubview:self.addressPV];
     
     
